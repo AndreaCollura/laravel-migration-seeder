@@ -10,3 +10,16 @@ $fa-font-path: "../fonts/webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
+
+
+header{
+    img{
+        width: 150px;
+    }
+}
+
+th{
+    text-transform: uppercase;
+}
+
+
