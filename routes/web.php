@@ -2,7 +2,9 @@
 
 
 use App\Http\Controllers\TrainController;
+use App\Http\Controllers\TodayController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +18,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [TrainController::class, 'index']);
+Route::get('/today', [TodayController::class, 'today'])->name('today');
 

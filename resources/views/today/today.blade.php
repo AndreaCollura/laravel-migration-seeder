@@ -9,8 +9,8 @@
                         <th scope="col">Agency</th>
                         <th scope="col">Departure Station</th>
                         <th scope="col">Arrival Station</th>
-                        <th scope="col">Departure date</th>
                         <th scope="col">Arrival time</th>
+                        <th scope="col">Departure station</th>
                         <th scope="col">train code</th>
                         <th scope="col">wagon number</th>
                         <th scope="col">On time</th>
@@ -39,6 +39,7 @@
                             @endif
                         </tr>
                     @endforeach
+                     {{-- <?php   dd($trains) ?> --}}
                 </tbody>
             </table>
         </div>
